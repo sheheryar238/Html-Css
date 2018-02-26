@@ -1,0 +1,144 @@
+@media only screen and (max-width:1200px){
+       
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+
+    }
+    
+    .row { padding: 0 2%;}
+}
+
+
+
+@media only screen and (max-width:1023px){
+    
+    body { font-size: 18px; }
+    section { padding: 60px 0;}
+    
+    .long-para {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .input-newsletter {  width: 350px; }
+    .icon-big {
+        font-size: 250%;
+        margin-bottom: 5px;
+        }
+    .section-courses h3 {
+        font-size: 180%;
+    }
+    
+    blockquote{
+        font-size: 90%;
+        margin-bottom: 20px;
+    }
+    blockquote:before{ font-size: 300%;}
+    cite {margin-top: 15px;}
+    cite img {
+        height: 35px;
+        margin-right: 5px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:767px){
+    
+    body { font-size: 16px }
+    section {padding: 30px 0;}
+    
+    .row,
+    .her-text-box{ padding: 0 4%;}
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    /*.main-nav {
+        display: none;
+    }*/
+    
+    .mob-nav-icon {
+        display: inline-block;
+    }
+    
+    .main-nav {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 40px;
+        margin-right: 25px;
+        padding: 10px;
+        background-color: rgba(52, 73, 94, 0.8);
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    
+    h1 {font-size: 180%}
+    h2 {font-size: 150%}
+    .long-para {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .input-newsletter { 
+        width: 150px; 
+        height: 40px;
+    }
+    .section-courses .btn { margin-left: 30%;}
+    
+    blockquote{ margin-bottom: 5px}
+    cite {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    cite img {
+        height: 25px;
+        margin-right: 2px;
+    }
+    
+    footer {
+        padding: 15px;
+        font-size: 70%;
+    }
+    .links li,
+    .social-links li {
+        margin-right: 15px;
+    }
+    
+    .social-links li a:link,
+    .social-links li a:visited{
+        font-size: 140%;
+    }
+}
+
+
+
+@media only screen and (max-width:480px){
+    section {padding: 25px 0;}
+    
+    .input-newsletter { 
+        width: 200px; 
+        height: 20px;
+    }
+    
+    .newsletter .btn {
+        padding: 5px 15px;
+        margin: 2% 0 0 35%;
+    }
+}
